@@ -20,5 +20,10 @@ public class Ex2_2 {
 
         String locationHeader = response.getHeader("location");
         System.out.println(locationHeader);
+
+        int statusCode = response.getStatusCode();
+        System.out.println(statusCode);
+
+
     }
 }

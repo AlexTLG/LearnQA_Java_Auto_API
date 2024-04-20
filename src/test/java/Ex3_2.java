@@ -19,7 +19,7 @@ public class Ex3_2 {
             Response response = RestAssured
                     .given()
                     .redirects()
-                    .follow(true)
+                    .follow(false)
                     .when()
                     .get(url)
                     .andReturn();

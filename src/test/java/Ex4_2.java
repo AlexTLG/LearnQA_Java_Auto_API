@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Ex4_2 {
     @Test
-    public void testGetToken() throws InterruptedException {
+    public void testGotToken() throws InterruptedException {
 
         String jobUrl = "https://playground.learnqa.ru/ajax/api/longtime_job";
         JsonPath response = RestAssured
